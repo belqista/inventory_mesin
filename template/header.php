@@ -181,7 +181,7 @@ $current_file = basename($_SERVER['PHP_SELF'] ?? '');
 
 
         /* =====================================================
-           LOGO
+           LOGO GARUDAFOOD
         ====================================================== */
 
         .sidebar-header img {
@@ -242,11 +242,6 @@ $current_file = basename($_SERVER['PHP_SELF'] ?? '');
 
             top: 18px;
 
-            /*
-             * Keluar sedikit dari sidebar.
-             * Karena sidebar overflow:visible,
-             * tombol tetap terlihat.
-             */
             right: -14px;
 
             width: 28px;
@@ -395,7 +390,7 @@ $current_file = basename($_SERVER['PHP_SELF'] ?? '');
 
 
         /* =====================================================
-           HOVER
+           HOVER MENU
         ====================================================== */
 
         .sidebar-menu > a:hover {
@@ -411,7 +406,7 @@ $current_file = basename($_SERVER['PHP_SELF'] ?? '');
 
 
         /* =====================================================
-           ACTIVE
+           ACTIVE MENU
         ====================================================== */
 
         .sidebar-menu > a.active {
@@ -550,8 +545,6 @@ $current_file = basename($_SERVER['PHP_SELF'] ?? '');
 
         /* =====================================================
            TOGGLE COLLAPSED
-           
-           INI BAGIAN UTAMA YANG DIPERBAIKI
         ====================================================== */
 
         body.sidebar-collapsed .sidebar-toggle {
@@ -674,6 +667,248 @@ $current_file = basename($_SERVER['PHP_SELF'] ?? '');
 
 
         /* =====================================================
+           LOGOUT SIDEBAR
+        ====================================================== */
+
+        .sidebar-logout {
+            position: relative;
+
+            width: calc(100% - 20px);
+
+            min-height: 40px;
+
+            margin: 0 10px 8px;
+
+            padding: 0 10px;
+
+            display: flex;
+
+            align-items: center;
+
+            gap: 10px;
+
+            color: #66758a;
+
+            text-decoration: none;
+
+            font-size: 12px;
+
+            font-weight: 500;
+
+            border-radius: 8px;
+
+            background: transparent;
+
+            transition:
+                background 0.2s ease,
+                color 0.2s ease,
+                transform 0.2s ease;
+
+            white-space: nowrap;
+
+            flex-shrink: 0;
+        }
+
+
+        /* =====================================================
+           ICON LOGOUT
+        ====================================================== */
+
+        .sidebar-logout i {
+            width: 20px;
+
+            min-width: 20px;
+
+            font-size: 16px;
+
+            text-align: center;
+
+            color: #64748b;
+
+            transition: 0.2s ease;
+        }
+
+
+        /* =====================================================
+           HOVER LOGOUT
+        ====================================================== */
+
+        .sidebar-logout:hover {
+            background: #fff1f1;
+
+            color: #dc3545;
+
+            text-decoration: none;
+        }
+
+
+        .sidebar-logout:hover i {
+            color: #dc3545;
+        }
+
+
+        /* =====================================================
+           LOGOUT COLLAPSED
+        ====================================================== */
+
+        body.sidebar-collapsed .sidebar-logout {
+            width: calc(100% - 16px);
+
+            margin: 0 8px 8px;
+
+            padding: 0;
+
+            justify-content: center;
+
+            gap: 0;
+        }
+
+
+        body.sidebar-collapsed .sidebar-logout span {
+            display: none;
+        }
+
+
+        body.sidebar-collapsed .sidebar-logout i {
+            width: auto;
+
+            min-width: 0;
+
+            font-size: 18px;
+        }
+
+
+        /* =====================================================
+           LOGO POLITEKNIK SEMEN INDONESIA
+        ====================================================== */
+
+        .sidebar-footer-logo {
+            width: 100%;
+
+            flex-shrink: 0;
+
+            padding: 12px 10px 13px;
+
+            display: flex;
+
+            flex-direction: column;
+
+            align-items: center;
+
+            justify-content: center;
+
+            background: #ffffff;
+
+            border-top: 1px solid #edf1f6;
+        }
+
+
+        .sidebar-footer-logo img {
+            display: block;
+
+            width: 180px;
+
+            max-width: 100%;
+
+            height: auto;
+
+            object-fit: contain;
+
+            margin-bottom: 5px;
+        }
+
+
+        /* =====================================================
+           TEKS PROGRAM STUDI
+        ====================================================== */
+
+        .sidebar-footer-logo .prodi-text {
+            margin: 0;
+
+            text-align: center;
+
+            font-size: 8px;
+
+            font-weight: 700;
+
+            letter-spacing: 0.4px;
+
+            color: #075eaa;
+
+            white-space: nowrap;
+
+            line-height: 1.3;
+        }
+
+
+        /* =====================================================
+           SIDEBAR COLLAPSED - LOGO POLTEKSI
+        ====================================================== */
+
+        body.sidebar-collapsed .sidebar-footer-logo {
+            padding: 10px 4px;
+        }
+
+
+        body.sidebar-collapsed .sidebar-footer-logo img {
+            width: 52px;
+
+            height: auto;
+
+            margin-bottom: 0;
+        }
+
+
+        body.sidebar-collapsed .sidebar-footer-logo .prodi-text {
+            display: none;
+        }
+
+
+        /* =====================================================
+           MOBILE FOOTER
+        ====================================================== */
+
+        @media (max-width: 991.98px) {
+
+            .sidebar-footer-logo {
+                padding: 12px 10px;
+            }
+
+            .sidebar-footer-logo img {
+                width: 180px;
+            }
+
+            .sidebar-footer-logo .prodi-text {
+                font-size: 8px;
+            }
+
+            .sidebar-logout {
+                width: calc(100% - 20px);
+
+                margin: 0 10px 8px;
+            }
+
+        }
+
+
+        @media (max-width: 575.98px) {
+
+            .sidebar-footer-logo {
+                padding: 10px 10px 12px;
+            }
+
+            .sidebar-footer-logo img {
+                width: 170px;
+            }
+
+            .sidebar-footer-logo .prodi-text {
+                font-size: 8px;
+            }
+
+        }
+
+
+        /* =====================================================
            MOBILE OVERLAY
         ====================================================== */
 
@@ -790,6 +1025,12 @@ $current_file = basename($_SERVER['PHP_SELF'] ?? '');
 
                 left: 255px;
             }
+
+
+            .sidebar-footer-logo img {
+                width: 180px;
+            }
+
         }
 
 
@@ -882,6 +1123,17 @@ $current_file = basename($_SERVER['PHP_SELF'] ?? '');
 
                 font-size: 12px;
             }
+
+
+            .sidebar-footer-logo {
+                padding: 12px 10px;
+            }
+
+
+            .sidebar-footer-logo img {
+                width: 170px;
+            }
+
         }
 
     </style>
@@ -1106,14 +1358,53 @@ $current_file = basename($_SERVER['PHP_SELF'] ?? '');
 
             </a>
 
+
         </nav>
+
+
+        <!-- =================================================
+             LOGOUT
+             DIBUAT SEPERTI MENU SIDEBAR
+        ================================================== -->
+
+        <a
+            href="/inventory_mesin/logout.php"
+            class="sidebar-logout"
+            onclick="return confirm('Apakah Anda yakin ingin logout?');"
+        >
+
+            <i class="bi bi-box-arrow-right"></i>
+
+            <span>Logout</span>
+
+        </a>
+
+
+        <!-- =================================================
+             LOGO POLITEKNIK SEMEN INDONESIA
+             PALING BAWAH SIDEBAR
+        ================================================== -->
+
+        <div class="sidebar-footer-logo">
+
+            <img
+                src="/inventory_mesin/assets/img/POLTEKSI_LG.jpeg"
+                alt="Politeknik Semen Indonesia"
+            >
+
+            <div class="prodi-text">
+                D3 - TEKNOLOGI INFORMASI
+            </div>
+
+        </div>
+
 
     </aside>
 
 
     <!-- =====================================================
          MAIN CONTENT
-         
+
          Jangan hapus bagian ini.
          Semua halaman akan masuk setelah bagian ini.
     ====================================================== -->
