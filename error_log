@@ -1,0 +1,129 @@
+[18-Aug-2026 04:10:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'u4ac1er5_inventory_user'@'localhost' (using password: YES) in /home/u4ac1er5/public_html/inventory_mesin/koneksi.php:13
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/koneksi.php(13): mysqli_connect()
+#1 /home/u4ac1er5/public_html/inventory_mesin/index.php(2): include('/home/u4ac1er5/...')
+#2 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/koneksi.php on line 13
+[18-Aug-2026 04:10:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'u4ac1er5_inventory_user'@'localhost' (using password: YES) in /home/u4ac1er5/public_html/inventory_mesin/koneksi.php:13
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/koneksi.php(13): mysqli_connect()
+#1 /home/u4ac1er5/public_html/inventory_mesin/index.php(2): include('/home/u4ac1er5/...')
+#2 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/koneksi.php on line 13
+[18-Aug-2026 04:10:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'u4ac1er5_inventory_user'@'localhost' (using password: YES) in /home/u4ac1er5/public_html/inventory_mesin/koneksi.php:13
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/koneksi.php(13): mysqli_connect()
+#1 /home/u4ac1er5/public_html/inventory_mesin/index.php(2): include('/home/u4ac1er5/...')
+#2 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/koneksi.php on line 13
+[18-Aug-2026 04:14:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'u4ac1er5_inventory_user'@'localhost' (using password: YES) in /home/u4ac1er5/public_html/inventory_mesin/koneksi.php:13
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/koneksi.php(13): mysqli_connect()
+#1 /home/u4ac1er5/public_html/inventory_mesin/index.php(2): include('/home/u4ac1er5/...')
+#2 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/koneksi.php on line 13
+[18-Aug-2026 04:21:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'u4ac1er5_inventory_user'@'localhost' (using password: YES) in /home/u4ac1er5/public_html/inventory_mesin/koneksi.php:13
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/koneksi.php(13): mysqli_connect()
+#1 /home/u4ac1er5/public_html/inventory_mesin/index.php(4): include('/home/u4ac1er5/...')
+#2 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/koneksi.php on line 13
+[18-Aug-2026 04:21:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'u4ac1er5_inventory_user'@'localhost' (using password: YES) in /home/u4ac1er5/public_html/inventory_mesin/koneksi.php:13
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/koneksi.php(13): mysqli_connect()
+#1 /home/u4ac1er5/public_html/inventory_mesin/index.php(4): include('/home/u4ac1er5/...')
+#2 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/koneksi.php on line 13
+[18-Aug-2026 04:24:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'u4ac1er5_inventory_user'@'localhost' (using password: YES) in /home/u4ac1er5/public_html/inventory_mesin/koneksi.php:13
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/koneksi.php(13): mysqli_connect()
+#1 /home/u4ac1er5/public_html/inventory_mesin/index.php(4): include('/home/u4ac1er5/...')
+#2 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/koneksi.php on line 13
+[18-Aug-2026 04:24:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'u4ac1er5_inventory_user'@'localhost' (using password: YES) in /home/u4ac1er5/public_html/inventory_mesin/koneksi.php:13
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/koneksi.php(13): mysqli_connect()
+#1 /home/u4ac1er5/public_html/inventory_mesin/index.php(4): include('/home/u4ac1er5/...')
+#2 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/koneksi.php on line 13
+[18-Aug-2026 11:38:32 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'k.id_mesin' in 'ON' in /home/u4ac1er5/public_html/inventory_mesin/index.php:24
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/index.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/index.php on line 24
+[18-Aug-2026 11:38:34 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'k.id_mesin' in 'ON' in /home/u4ac1er5/public_html/inventory_mesin/index.php:24
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/index.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/index.php on line 24
+[18-Aug-2026 11:39:17 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'k.id_mesin' in 'ON' in /home/u4ac1er5/public_html/inventory_mesin/index.php:24
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/index.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/index.php on line 24
+[18-Aug-2026 11:39:18 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'k.id_mesin' in 'ON' in /home/u4ac1er5/public_html/inventory_mesin/index.php:24
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/index.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/index.php on line 24
+[18-Aug-2026 11:40:08 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'k.id_mesin' in 'ON' in /home/u4ac1er5/public_html/inventory_mesin/index.php:24
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/index.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/index.php on line 24
+[18-Aug-2026 11:40:19 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'k.id_mesin' in 'ON' in /home/u4ac1er5/public_html/inventory_mesin/index.php:24
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/index.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/index.php on line 24
+[18-Aug-2026 12:20:20 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'k.id_mesin' in 'ON' in /home/u4ac1er5/public_html/inventory_mesin/index.php:24
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/index.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/index.php on line 24
+[18-Aug-2026 12:43:05 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'k.id_mesin' in 'ON' in /home/u4ac1er5/public_html/inventory_mesin/index.php:24
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/index.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/index.php on line 24
+[18-Aug-2026 12:43:23 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'k.id_mesin' in 'ON' in /home/u4ac1er5/public_html/inventory_mesin/index.php:24
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/index.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/index.php on line 24
+[18-Aug-2026 12:45:37 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'k.id_mesin' in 'ON' in /home/u4ac1er5/public_html/inventory_mesin/index.php:24
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/index.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/index.php on line 24
+[18-Aug-2026 12:47:06 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'k.id_mesin' in 'ON' in /home/u4ac1er5/public_html/inventory_mesin/index.php:24
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/index.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/index.php on line 24
+[18-Aug-2026 13:25:27 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'k.id_mesin' in 'ON' in /home/u4ac1er5/public_html/inventory_mesin/index.php:24
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/index.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/index.php on line 24
+[18-Aug-2026 13:25:34 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'k.id_mesin' in 'ON' in /home/u4ac1er5/public_html/inventory_mesin/index.php:24
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/index.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/index.php on line 24
+[18-Aug-2026 13:25:43 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'k.id_mesin' in 'ON' in /home/u4ac1er5/public_html/inventory_mesin/index.php:24
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/index.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/index.php on line 24
+[18-Aug-2026 06:36:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'u4ac1er5_inventory_user'@'localhost' (using password: YES) in /home/u4ac1er5/public_html/inventory_mesin/koneksi.php:13
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/koneksi.php(13): mysqli_connect()
+#1 /home/u4ac1er5/public_html/inventory_mesin/index.php(4): include('/home/u4ac1er5/...')
+#2 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/koneksi.php on line 13
+[18-Aug-2026 13:39:51 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'k.id_mesin' in 'ON' in /home/u4ac1er5/public_html/inventory_mesin/index.php:24
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/index.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/index.php on line 24

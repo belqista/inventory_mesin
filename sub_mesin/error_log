@@ -1,0 +1,43 @@
+[18-Aug-2026 13:57:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/download_pdf.php:204
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/download_pdf.php(248): imageBase64()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/download_pdf.php on line 204
+[24-Aug-2026 11:14:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/download_pdf.php:204
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/download_pdf.php(248): imageBase64()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/download_pdf.php on line 204
+[01-Sep-2026 02:19:23 UTC] PHP Parse error:  Unclosed '{' on line 219 in /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/tambah.php on line 3047
+[01-Sep-2026 02:19:26 UTC] PHP Parse error:  Unclosed '{' on line 219 in /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/tambah.php on line 3047
+[01-Sep-2026 02:32:01 UTC] PHP Fatal error:  Cannot redeclare e() (previously declared in /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/tambah.php:29) in /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/tambah.php on line 2237
+[01-Sep-2026 09:35:17 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'serial_number' in 'WHERE' in /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/tambah.php:698
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/tambah.php(698): mysqli_prepare()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/tambah.php on line 698
+[01-Sep-2026 09:35:26 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'serial_number' in 'WHERE' in /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/tambah.php:698
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/tambah.php(698): mysqli_prepare()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/tambah.php on line 698
+[01-Sep-2026 09:37:46 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'serial_number' in 'WHERE' in /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/tambah.php:698
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/tambah.php(698): mysqli_prepare()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/tambah.php on line 698
+[01-Sep-2026 09:37:57 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'serial_number' in 'WHERE' in /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/tambah.php:698
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/tambah.php(698): mysqli_prepare()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/tambah.php on line 698
+[01-Sep-2026 09:38:03 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'serial_number' in 'WHERE' in /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/tambah.php:698
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/tambah.php(698): mysqli_prepare()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/tambah.php on line 698
+[01-Sep-2026 09:38:10 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'serial_number' in 'WHERE' in /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/tambah.php:698
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/tambah.php(698): mysqli_prepare()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/sub_mesin/tambah.php on line 698

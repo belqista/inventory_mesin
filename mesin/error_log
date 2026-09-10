@@ -1,0 +1,38 @@
+[24-Aug-2026 10:54:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home/u4ac1er5/public_html/inventory_mesin/mesin/download_pdf.php:33
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/mesin/download_pdf.php(88): imageToDataUri()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/mesin/download_pdf.php on line 33
+[24-Aug-2026 10:54:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home/u4ac1er5/public_html/inventory_mesin/mesin/download_pdf.php:33
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/mesin/download_pdf.php(88): imageToDataUri()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/mesin/download_pdf.php on line 33
+[24-Aug-2026 10:54:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home/u4ac1er5/public_html/inventory_mesin/mesin/download_pdf.php:33
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/mesin/download_pdf.php(88): imageToDataUri()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/mesin/download_pdf.php on line 33
+[24-Aug-2026 10:54:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home/u4ac1er5/public_html/inventory_mesin/mesin/download_pdf.php:33
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/mesin/download_pdf.php(88): imageToDataUri()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/mesin/download_pdf.php on line 33
+[24-Aug-2026 10:54:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home/u4ac1er5/public_html/inventory_mesin/mesin/download_pdf.php:33
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/mesin/download_pdf.php(88): imageToDataUri()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/mesin/download_pdf.php on line 33
+[24-Aug-2026 10:54:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home/u4ac1er5/public_html/inventory_mesin/mesin/download_pdf.php:33
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/mesin/download_pdf.php(88): imageToDataUri()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/mesin/download_pdf.php on line 33
+[31-Aug-2026 15:27:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function finfo_open() in /home/u4ac1er5/public_html/inventory_mesin/mesin/tambah.php:544
+Stack trace:
+#0 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/mesin/tambah.php on line 544
+[31-Aug-2026 15:29:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function finfo_open() in /home/u4ac1er5/public_html/inventory_mesin/mesin/tambah.php:544
+Stack trace:
+#0 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/mesin/tambah.php on line 544

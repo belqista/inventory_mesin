@@ -1,0 +1,8 @@
+# Abaikan konfigurasi database lokal jika berisi koneksi sensitif
+# koneksi.php
+
+# Abaikan file bawaan OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

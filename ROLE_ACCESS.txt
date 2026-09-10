@@ -1,0 +1,26 @@
+ROLE ACCESS INVENTORY MESIN
+============================
+
+TEKNIK / USER
+- Dashboard: lihat
+- Area: tambah + edit + lihat
+- Jenis Mesin: tambah + edit + lihat
+- Mesin: tambah + edit + lihat, termasuk lokasi mesin
+- Sub Mesin: tambah + edit + lihat
+- Komponen: tambah + edit + lihat
+- Maintenance: tambah + edit + lihat
+
+ADMIN
+- Dashboard/admin: lihat
+- Halaman operasional root: lihat
+- Tombol tambah/edit operasional root disembunyikan
+- Penghapusan data operasional dibatasi ke admin
+- Users/admin: dikelola dari area admin
+
+CATATAN
+- Proteksi role dilakukan di server, bukan hanya menyembunyikan tombol.
+- Semua halaman Teknik/User menggunakan template/auth.php.
+- Halaman tambah/edit data operasional hanya menerima role user.
+- Endpoint hapus operasional hanya menerima role admin.
+- Maintenance tidak menggunakan users.no_reg; identitas teknisi tetap mengikuti data akun/nama_lengkap sesuai implementasi maintenance yang sudah diperbaiki.
+- Desain/UI tidak dirombak.

@@ -1,0 +1,9 @@
+[24-Aug-2026 13:38:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home/u4ac1er5/public_html/inventory_mesin/komponen/download_pdf.php:29
+Stack trace:
+#0 /home/u4ac1er5/public_html/inventory_mesin/komponen/download_pdf.php(113): imageToDataUri()
+#1 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/komponen/download_pdf.php on line 29
+[01-Sep-2026 11:22:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function finfo_open() in /home/u4ac1er5/public_html/inventory_mesin/komponen/tambah.php:592
+Stack trace:
+#0 {main}
+  thrown in /home/u4ac1er5/public_html/inventory_mesin/komponen/tambah.php on line 592
